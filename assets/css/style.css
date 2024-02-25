@@ -169,6 +169,34 @@ footer p {
   justify-content: center;
   margin-top: 4.5rem;
 }
+.rulePopW {
+  display: none;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(162deg, rgb(66, 59, 20) 12%, rgb(49, 43, 91) 50%, rgb(30, 52, 23) 83%);
+  overflow: hidden;
+  opacity: 0.93;
+}
+.rulePopW.active{
+  display: flex;
+}
+
+.rulePop {
+  width: 80%;
+  max-width: 340px;
+  height: fit-content;
+  padding: 1.5rem 2rem;
+  background: #000000b5;
+  color: white;
+  box-shadow: 0px 0px 32px #000000de;
+  border: 2px solid orangered;
+}
 
 #line {
   background-color: rgba(255, 255, 255, 0.255);

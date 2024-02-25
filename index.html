@@ -13,6 +13,10 @@
 </head>
 
 <body>
+  <div class="rulePopW">
+    <div class="rulePop">
+    </div>
+  </div>
   <header>
     <img src="./assets/public/MCTSDVLogo.png" alt="MCTSDVLogo" style="margin-top: -2.15rem;">
   </header>
@@ -38,10 +42,10 @@
         <p><span>Venue: </span><span>TYIT Classroom</span></p>       
       </div>
       <div class="eventAct">
-        <button id="reg">
+        <button id="reg" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSegtS_AKx1OSqMaq0z1f4tgN3stre8EKeJBeBO3zDOULsLdLg/viewform?usp=sf_link'">
           Register Now
         </button>
-        <button id="rules">
+        <button id="rules" onclick="popRule('techhead')">
           Rules
         </button>
       </div>
@@ -56,10 +60,10 @@
         <p><span>Venue: </span><span>IT LAB</span></p>
       </div>
       <div class="eventAct">
-        <button id="reg">
+        <button id="reg" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfBN_ArAfChR0Jty3VnuloR7E_lyaID_koaSrtYCM2VGp4i3g/viewform?usp=sf_link'">
           Register Now
         </button>
-        <button id="rules">
+        <button id="rules" onclick="popRule('codemonk')">
           Rules
         </button>
       </div>
@@ -74,10 +78,10 @@
         <p><span>Venue: </span><span>IT LAB</span></p>
       </div>
       <div class="eventAct">
-        <button id="reg">
+        <button id="reg" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdNHECAI1o2c7iYm9UpN02FaH3xzn6yHZ1tkkPFLgZRYTC0tA/viewform?usp=sf_link'">
           Register Now
         </button>
-        <button id="rules">
+        <button id="rules" onclick="popRule('cyberhero')">
           Rules
         </button>
       </div>
@@ -92,10 +96,10 @@
         <p><span>Venue: </span><span>IT LAB</span></p>
       </div>
       <div class="eventAct">
-        <button id="reg">
+        <button id="reg" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdWAfcE3AYFkmzfIUyXOyAH4fhPEDwwdoz_ONXBYN7UQZ_s9w/viewform?usp=sf_link'">
           Register Now
         </button>
-        <button id="rules">
+        <button id="rules" onclick="popRule('webdoodle')">
           Rules
         </button>
       </div>
@@ -153,7 +157,7 @@
   <footer id="footer">
     <p>Made with <span style="color: red;">&#9829;</span> by Shubh.</p>
   </footer>
-  
+  <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
